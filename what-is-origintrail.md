@@ -5,7 +5,7 @@ Imagine the global supply chain data in one place, where end-to-end info is shar
 
 Why is it needed?  
 Supply chain data is fragmented sitting in silos across Legacy systems like SAP and permissioned blockchains like IBM hyperledger, Vechain, etc. As such products cannot be traced from start to end. Now more than ever, in light of the current pandemic situation, pressure for integration, visibility and trust is demanded by consumers, which has been flagged globally by regulatory agencies and standardisation bodies, including the US FDA and GS1.  
-To solve this, OriginTrail developed ODN, which is a 100% Decentralized, Open-source, and entirely TRAC token driven Knowledge Graph layer 2 solution on Ethereum. Knowledge Graph technology allows infinite scaling of data \(tech utilized also by Google and Amazon\). ODN can be used to share both public and private data, thus enabling all types of use cases, and has integrated the GS1, IOT and W3C standards.The ODN explorer search tool empowers for a “Google” like approach to connect the dots.
+To solve this, OriginTrail developed ODN, which is a 100% Decentralized, Open-source, and entirely TRAC token driven Knowledge Graph layer 2 solution on Ethereum. Knowledge Graph technology allows infinite scaling of data \(tech utilized also by Google and Amazon\). ODN can be used to share both public and private data, thus enabling all types of use cases, and has integrated the GS1, IOT and W3C standards.The ODN explorer search tool empowers for a “Google” like approach to connect the dots. 
 
 What is it for token holders?
 
