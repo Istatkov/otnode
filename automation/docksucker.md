@@ -12,7 +12,7 @@
 * the log is less friendly to read
 * autorestarts require additional tools \(i.e. Ansible\)
 
-To perform the transformation, you need to utilize Ansible and the scripts you can find in Calvin's github. Always consult those and the instructions on his Github. Should you have any questions, feel free to join the [Advanced Node runners telegram group](https://t.me/otnodes).
+To perform the transformation, you need to utilize the scripts you can find in [Calvin's Github](https://github.com/calr0x/OT-DockSucker). Always consult those first and the instructions on his Github as those would always be the most up-to-date ones. Should you have any questions, feel free to join the [Advanced Node runners telegram group](https://t.me/otnodes).
 
 There are two ways to perform this process - using Smoothbrain backup, or using local backup.
 
