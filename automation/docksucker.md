@@ -65,7 +65,7 @@ Second`,` in most cases you would have a backup folder already created on your n
 docker exec it otnode mkdir -p ../backup
 ```
 
-* Then you will need the path of your docker container which you saved at the beginning of the guide. If you did notm you must run **df -h** and save the path in the row **overlay. It should look something like this:** /var/lib/docker/overlay2/**5b0720e1a89e407a48aa3be9112f6f531ec47d7ec5662a7dafcc98506968af8d**/diff
+* Then you will need the path of your docker container which you saved at the beginning of the guide. If you did notm you must run **df -h** and save the path in the row **overlay. It should look something like this:** /var/lib/docker/overlay2/**5b0720e1a89e407a48aa3be9112f6f531ec47d7ec5662a7dafcc98506968af8d**/merged
 * You will use the value you got from the **df -h** on your node. Copy the third command MOUNT VOLUME from the Instructions, while updating the second part of the command where above it says /mnt/volume-fsn1. Should look similar to the below with the updated Volume number and the node folder \(the XXXXXXX entries below\).
 
 ```text
