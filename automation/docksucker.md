@@ -131,7 +131,7 @@ Run the following commands on the new VPS:
 Update the server and install Git:
 
 ```text
-apt update && apt upgrade -y && apt install git -yp
+apt update && apt upgrade -y && apt install git -y
 ```
 
 Install 1 GB SWAP
