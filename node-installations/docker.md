@@ -30,16 +30,18 @@ OriginTrail is integrated with a number of blockchains and each requires slightl
 
 ## I. Obtain xDAI and xTRAC
 
-First you need xDAI, which is the gas fee currency on xDAI. Given that the gas fees there are very low, 1-2 xDAI will last you a long time. There are multiple ways to obtain it:
+xDAI
+
+xDAI is the gas fee currency on the xDAI chain. Given that the gas fees there are very low, 1-2 xDAI will last you a long time. There are multiple ways to obtain it:
 
 * You can obtain DAI from [Uniswap ](https://info.uniswap.org/token/0x6b175474e89094c44da98b954eedeac495271d0f)or [Curve ](https://curve.fi/). Then you convert it through the bridge [https://bridge.xdaichain.com/](https://bridge.xdaichain.com/) – here is a video tutorial how to do it: [https://www.youtube.com/watch?v=oKdh2cOOqUs](https://www.youtube.com/watch?v=oKdh2cOOqUs) This operation would cost one Ethereum smart contract transaction.
 * Buy xDAI directly from [Bitmax](https://bitmax.io/en/basic/cashtrade-spottrading/usdt/xdai). If you have USDT on Binance, send the USDT through TRX network to Bitmax \(so it costs $1 for the transfer\).
 * Use the faucet to get 0.01 xdai -&gt; [https://blockscout.com/xdai/mainnet/faucet](https://blockscout.com/xdai/mainnet/faucet)
-* If the faucet is not working, join the OriginTrail Community telegram and as for a cent of xdai -&gt; [https://t.me/OriginTrailCommunity](https://t.me/OriginTrailCommunity)
+* If the faucet is not working, join the OriginTrail Community telegram and as for a cent of xDAI -&gt; [https://t.me/OriginTrailCommunity](https://t.me/OriginTrailCommunity)
 
-Second you need xTRAC. If you participated in the SFC boarding, you will obtain back 5% of your TRAC contribution as xTRAC bounty. To claim those, please visit the staking website once announced by the team.
+xTRAC
 
-You can also convert TRAC tokens to xTRAC using the Omni Bridge. Go to [https://omni.xdaichain.com/](https://omni.xdaichain.com/) Instructions how to use the bridge can be found here: [https://docs.tokenbridge.net/eth-xdai-amb-bridge/multi-token-extension/ui-to-transfer-tokens/transfer-erc20](https://docs.tokenbridge.net/eth-xdai-amb-bridge/multi-token-extension/ui-to-transfer-tokens/transfer-erc20)
+xTRAC is wrapped TRAC on other chains. You can convert TRAC tokens to xTRAC using the Omni Bridge. Go to [https://omni.xdaichain.com/](https://omni.xdaichain.com/) Instructions how to use the bridge can be found here: [https://docs.tokenbridge.net/eth-xdai-amb-bridge/multi-token-extension/ui-to-transfer-tokens/transfer-erc20](https://docs.tokenbridge.net/eth-xdai-amb-bridge/multi-token-extension/ui-to-transfer-tokens/transfer-erc20)
 
 The custom token contract to see xTRAC on your Metamask on xDAI is:
 
