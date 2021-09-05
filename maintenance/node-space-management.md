@@ -62,7 +62,7 @@ Once you finish, type exit:
 exit
 ```
 
-### **3. Delete all database logs on the server**
+### **3. Delete all text logs on the server**
 
 Further, you can navigate to the following directory on your server and search for all \*.log files within that directory and delete them.
 
