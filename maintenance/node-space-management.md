@@ -1,14 +1,20 @@
 # Node Space Management
 
-## **1. Freeing up space**
-
-* C**heck available space**
+## **Check available space**
 
 ```text
 df -h
 ```
 
-* **Check the size of your log file**
+![](../.gitbook/assets/image%20%2844%29.png)
+
+**In most cases the overlay section shows how much your node is using and how much space you have left \(i.e. the above screenshot shows half of the space used by the node**
+
+## **Freeing space**
+
+### **1.** Node log
+
+* Check the size of your log
 
 ```text
 du -h $(docker inspect -f '{{.LogPath}}' otnode)
@@ -20,7 +26,7 @@ du -h $(docker inspect -f '{{.LogPath}}' otnode)
 truncate -s 0 $(docker inspect -f '{{.LogPath}}' otnode)
 ```
 
-* Clean old versions and old backups
+### 2. Clean old versions and old backups
 
 ```text
 docker exec -it otnode bash
@@ -42,14 +48,14 @@ rm -r 4.1.2
 
 ![](../.gitbook/assets/image%20%2826%29.png)
 
-Then enter the backup directory and delete any old backups you might have there which you don’t need:
+Then enter the backup directory and delete any old backups you might have there which you don’t need. They usually start with the date of the backup, \(i.e. 2021-09-05T09:02:52.801Z\):
 
 ```text
 cd backup
 ```
 
 ```text
-rm -r backupfolder
+rm -r 2021-09-05T09:02:52.801Z
 ```
 
 Once you finish, type exit:
@@ -58,39 +64,31 @@ Once you finish, type exit:
 exit
 ```
 
-* **Delete all logs on the server with FTP to free up even more space**
+### **3. Delete all database logs on the server**
 
-Further, you can navigate to the following directory on your server \(login using any FTP client, and search for all \*.log files within that directory and delete them.
+Further, you can navigate to the following directory on your server and search for all \*.log files within that directory and delete them.
 
-/var/lib/docker/overlay2/
+```text
+cd  /var/lib/docker/overlay2
+```
+
+```text
+find . -type f -name "*.log" -delete
+```
 
 **Important: Be careful to delete logs only within that directory, or you can break the VPS.** Do this at your own discretion
 
-Further, if you are running an old node since 2019, check the below folder \(var/lib/docker/volumes\) and browse the folders inside to check if you have similar 2.0.xx folders as in the screenshot below. If you do, you can safely delete all 2.0.xx folders.
-
-![](../.gitbook/assets/image%20%283%29.png)
-
-* Clean cache
+### 4. Clean cache and journals
 
 ```text
-sudo du -sh /var/cache/apt
+apt clean
 ```
 
 ```text
-sudo apt clean
+journalctl --vacuum-time=1h
 ```
 
-* Clean server logs \(3d = will delete any journals older than 3 days, can be a different number, i.e. 1d, or 1h\)
-
-```text
-journalctl --disk-usage
-```
-
-```text
-sudo journalctl --vacuum-time=3d
-```
-
-## **2. Adding additional space to the server**
+## **Adding Volume to perform backups if you ran out of space**
 
 By some mistake or just number of jobs growing you can find your VPS is lacking disk space. Disk space can be checked with the command **df -h** which will display disk partitions and their usage:
 
