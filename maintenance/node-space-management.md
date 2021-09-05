@@ -6,11 +6,15 @@
 df -h
 ```
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 **In most cases the overlay section shows how much your node is using and how much space you have left \(i.e. the above screenshot shows half of the space used by the node**
 
-## **Freeing space**
+**If you ran out of space, your arango database probably wont start and you get an error like this:**
+
+![](../.gitbook/assets/image%20%2844%29.png)
+
+## **Freeing up space**
 
 ### **1.** Node log
 
