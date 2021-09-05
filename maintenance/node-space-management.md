@@ -18,12 +18,6 @@ df -h
 
 ### **1.** Node log
 
-* Check the size of your log
-
-```text
-du -h $(docker inspect -f '{{.LogPath}}' otnode)
-```
-
 * **Delete the log file**
 
 ```text
