@@ -66,6 +66,8 @@ exit
 
 Further, you can navigate to the following directory on your server and search for all \*.log files within that directory and delete them.
 
+**Important: Be careful to delete logs only within that directory, or you can break the VPS.** Do this at your own discretion
+
 ```text
 cd  /var/lib/docker/overlay2
 ```
@@ -73,8 +75,6 @@ cd  /var/lib/docker/overlay2
 ```text
 find . -type f -name "*.log" -delete
 ```
-
-**Important: Be careful to delete logs only within that directory, or you can break the VPS.** Do this at your own discretion
 
 ### 4. Clean cache and journals
 
