@@ -6,8 +6,6 @@ Below is a end-to-end step-by-step guide with the most important steps.
 
 You need to rent a VPS server to host your node on. There are several companies on the market. [Digital Ocean](https://m.do.co/c/1d27b4354b73) \(click on the link to get $100 free referral credit for 2 months\) is the best price/quality offer on the market \(starting from $10/month with 2 GB\). [Hetzner](https://hetzner.cloud/?ref=JFacmarCnjhd) \(click on the link to get 20€ free referral credit\) has even more competitive prices with excellent quality, and their CX11 for 4 Euro per month server is sufficient for the current jobs load, but are less responsive as support \(no support during the weekend\). Currently I am using a mix of both providers, and I can recommend both of their services.
 
-For the Multinode docker setup, I am trialling [Contabo's VPS L](https://www.anrdoezrs.net/click-100465816-13796474) package, with setting up multiple nodes on one VPS. Updated section on that is coming soon.
-
 Digital Ocean:
 
 Select the Marketplace and choose docker on the top right corner, Shared CPU Basic, and the $10/month server.
