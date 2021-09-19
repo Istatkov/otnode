@@ -13,6 +13,7 @@
 * [Node Space Management](maintenance/node-space-management.md)
 * [Node Monitoring and Maintenance](maintenance/node-monitoring-and-maintenance.md)
 * [Node Backup](maintenance/node-backup.md)
+* [Pruning](maintenance/pruning.md)
 
 ---
 
