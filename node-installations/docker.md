@@ -153,7 +153,7 @@ Paste the below in the text editing tool and update the configuration accordingl
      },
    "initial_deposit_amount": "5000000000000000000000",
    "dh_max_holding_time_in_minutes": 530000,
-   "dh_maximum_dataset_filesize_in_mb": 10
+   "dh_maximum_dataset_filesize_in_mb": 10,
    "dataset_pruning": {
       "enabled": true,
       "imported_pruning_delay_in_minutes": 1440,
