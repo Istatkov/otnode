@@ -7,7 +7,7 @@ There are two levels of pruning:
 1. Remove all datasets that have expired on the network - \(L1 pruning\)
 2. Low estimated value datasets pruning - Remove all datasets that the node has not won - \(L2 pruning\).
 
-Originally the network was designed to litigate nodes which are not online and pass the contract to another node. However with V6 coming up, this process might be getting a makeover so you can safe significant space L2 pruning.
+Originally the network was designed to litigate nodes which are not online and pass the contract to another node. However with V6 coming up, this process might be getting a makeover so you can save significant space L2 pruning.
 
 In order to activate them you need to add the following lines to your configuration \(please refer to [Docker installation](../node-installations/docker.md#5-setup-the-configuration-file) for example of the complete configuration file with Pruning enabled\):
 
