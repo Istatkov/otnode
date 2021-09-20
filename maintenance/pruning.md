@@ -17,7 +17,7 @@ In order to activate them you need to add the following lines to your configurat
       "imported_pruning_delay_in_minutes": 1440,
       "replicated_pruning_delay_in_minutes": 1440,
       "low_estimated_value_datasets": {
-        "enabled": true
+        "enabled": true,
         "minimum_free_space_percentage": 30
 }
 }
