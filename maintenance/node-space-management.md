@@ -101,7 +101,7 @@ On Hetzner and Digital Ocean you can add additional space to your VPS by adding 
 * Click on the server which is having problems. This will bring up server settings.
 * Select **Volumes:**
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2813%29%20%281%29.png)
 
 * Click on **Create Volume** button. You can leave all the settings at default values just make sure the volume size is enough to accommodate your backup. _NOTE: the name of the volume can be different and depends on the region your server is deployed in._ 
 

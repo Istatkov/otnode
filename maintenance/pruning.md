@@ -1,6 +1,6 @@
 # Pruning
 
-Currently on v5 the nodes bid and store all datasets in their databases. With the increased amount of jobs coming, the space grows quite significantly on the node. 
+Currently on v5 the nodes bid and store all datasets in their databases. With the increased amount of jobs coming, the space grows quite significantly on the node.
 
 There are two levels of pruning:
 
@@ -21,8 +21,15 @@ In order to activate them you need to add the following lines to your configurat
         "minimum_free_space_percentage": 30
 }
 }
-
 ```
 
 The setting "true" on the second row activates L1 pruning and "true" on row 5 activates L2 pruning. If you want to disable the pruning just set those two to false. You can also activate L1 pruning and disable L2 pruning.
+
+Also in order for the pruning to work, you need to have deleted any backups from the node inside docker, including the backup directory even if it is empty
+
+```text
+docker exec otnode rm -rf ../backup
+```
+
+
 

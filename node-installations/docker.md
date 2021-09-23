@@ -49,7 +49,7 @@ The custom token contract to see xTRAC on your Metamask on xDAI is:
 
 Once you have sorted out your xDAI and xTRAC, you need to add the Custom RPC for xDAI, so you can switch your Metamask to the xDAI network. Easiest way to do it is to go to: [https://chainlist.org/](https://chainlist.org/) , click on Connect Wallet in the top right corner and then click “Add me to metamask” button on xDAI section.
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2827%29%20%281%29.png)
 
 Then you will see on your Metamask xDAI entry when you click on the dropdown on the top where it says Ethereum Mainnet:
 
@@ -79,7 +79,7 @@ apt update && apt upgrade -y
 
 If you see this notice, choose the first option:
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2816%29%20%281%29.png)
 
 ### **2. Reboot server with below command, close the window and login again**
 

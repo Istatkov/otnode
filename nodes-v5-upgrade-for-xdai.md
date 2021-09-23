@@ -47,7 +47,7 @@ Also the custom token contract to see xTRAC on your Metamask is:
 0xEddd81E0792E764501AaE206EB432399a0268DB5
 ```
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 4. Migration script
 

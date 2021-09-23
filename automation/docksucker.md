@@ -41,7 +41,7 @@ On Hetzner and Digital Ocean you can add additional space to your VPS by adding 
 * Click on the server. This will bring up server settings.
 * Select **Volumes:**
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2813%29%20%281%29.png)
 
 * Click on **Create Volume** button, put the name as vol1 and select manual. For size, select whatever is the size of the VPS's SSD at the moment. 
 
@@ -86,7 +86,7 @@ umount /var/lib/docker/overlay2/xxxxxxxxxxxxxxxx/merged/ot-node/backup
 
 * then you need to detach the volume from the Hetzner's control panel. Go to the Volume section for this server and click on the three red dots and select Detach Volume
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 ### Setting up the new server
 
