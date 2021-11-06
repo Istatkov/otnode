@@ -2,15 +2,11 @@
 
 You can find here vouchers for [Netcup VPS 500 G8](https://www.netcup.eu/bestellen/produkt.php?produkt=2006) giving 10% discount. I will refresh the list regularly. If a voucher is taken, just try another one.
 
-2053nc163550685719
-
 2053nc163550685718
 
 2053nc163550685717
 
 2053nc163550685716
-
-2053nc163550685715
 
 2053nc163550685714
 
