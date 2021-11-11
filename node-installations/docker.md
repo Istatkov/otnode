@@ -143,6 +143,8 @@ ufw enable && ufw status
 nano /root/.origintrail_noderc
 ```
 
+For XDAI only:
+
 Paste the below in the text editing tool and update the configuration accordingly:
 
 ```
@@ -179,6 +181,67 @@ Paste the below in the text editing tool and update the configuration accordingl
 ```
 
 save the file by **Ctrl-O** and **Enter** and exit by **Ctrl-X**
+
+**For XDAI and Polygon:**
+
+```
+{
+   "blockchain": {
+     "implementations": [
+       {
+         "blockchain_title": "xDai",
+         "network_id": "xdai:mainnet",
+         "identity_filepath": "xdai_erc725_identity.json",
+         "dh_price_factor" : "1",
+         "node_wallet": "xxxxxxxx",
+         "node_private_key": "xxxxxxxx",
+         "management_wallet": "xxxxxxxx"
+       }, 
+       {
+         "blockchain_title": "Polygon",
+         "network_id": "polygon:mainnet",
+         "dh_price_factor" : "1",
+         "node_wallet": "xxxxxxxx",
+         "node_private_key": "xxxxxxxx",
+         "management_wallet": "xxxxxxxx"
+         "rpc_server_url": "xxxxxxxxxxx"
+       } 
+     ]
+   },
+   "network": {
+     "hostname": "xxx.xxx.xxx.xxx"
+     },
+   "initial_deposit_amount": "5000000000000000000000",
+   "dh_max_holding_time_in_minutes": 530000,
+   "dh_maximum_dataset_filesize_in_mb": 10,
+   "dataset_pruning": {
+      "enabled": true,
+      "imported_pruning_delay_in_minutes": 1440,
+      "replicated_pruning_delay_in_minutes": 1440,
+      "low_estimated_value_datasets": {
+        "enabled": false,
+        "minimum_free_space_percentage": 30
+}
+}
+}     ]
+   },
+   "network": {
+     "hostname": "xxx.xxx.xxx.xxx"
+     },
+   "initial_deposit_amount": "5000000000000000000000",
+   "dh_max_holding_time_in_minutes": 530000,
+   "dh_maximum_dataset_filesize_in_mb": 10,
+   "dataset_pruning": {
+      "enabled": true,
+      "imported_pruning_delay_in_minutes": 1440,
+      "replicated_pruning_delay_in_minutes": 1440,
+      "low_estimated_value_datasets": {
+        "enabled": false,
+        "minimum_free_space_percentage": 30
+}
+}
+}
+```
 
 **Explanation:**
 
