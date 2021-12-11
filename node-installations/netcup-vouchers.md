@@ -38,8 +38,6 @@ You can find here vouchers for [Netcup VPS 500 G8](https://www.netcup.eu/bestell
 
 2053nc16355068570
 
-2053nc163550665019
-
 2053nc163550665018
 
 2053nc163550665017
@@ -58,12 +56,6 @@ You can find here vouchers for [Netcup VPS 500 G8](https://www.netcup.eu/bestell
 
 2053nc163550665010
 
-2053nc16355066509
-
-2053nc16355066508
-
-2053nc16355066507
-
 2053nc16355066506
 
 2053nc16355066505
@@ -73,7 +65,5 @@ You can find here vouchers for [Netcup VPS 500 G8](https://www.netcup.eu/bestell
 2053nc16355066503
 
 2053nc16355066502
-
-2053nc16355066501
 
 2053nc16355066500
