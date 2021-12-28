@@ -155,7 +155,7 @@ Paste the below in the text editing tool and update the configuration accordingl
          "blockchain_title": "xDai",
          "network_id": "xdai:mainnet",
          "identity_filepath": "xdai_erc725_identity.json",
-         "dh_price_factor" : "1",
+         "dh_price_factor" : "0.01",
          "node_wallet": "xxxxxxxx",
          "node_private_key": "xxxxxxxx",
          "management_wallet": "xxxxxxxx"
@@ -192,7 +192,7 @@ save the file by **Ctrl-O** and **Enter** and exit by **Ctrl-X**
          "blockchain_title": "xDai",
          "network_id": "xdai:mainnet",
          "identity_filepath": "xdai_erc725_identity.json",
-         "dh_price_factor" : "1",
+         "dh_price_factor" : "0.01",
          "node_wallet": "xxxxxxxx",
          "node_private_key": "xxxxxxxx",
          "management_wallet": "xxxxxxxx"
@@ -200,7 +200,7 @@ save the file by **Ctrl-O** and **Enter** and exit by **Ctrl-X**
        {
          "blockchain_title": "Polygon",
          "network_id": "polygon:mainnet",
-         "dh_price_factor" : "1",
+         "dh_price_factor" : "0.01",
          "node_wallet": "xxxxxxxx",
          "node_private_key": "xxxxxxxx",
          "management_wallet": "xxxxxxxx"
