@@ -71,7 +71,7 @@ Then you will see on your Metamask xDAI entry when you click on the dropdown on 
 
 **Create operational wallet** and management wallets
 
-Create a new wallet using Mycrypto or Metamask and export the private key, which we will use for the operational wallet for the node. Deposit the amount of xTRAC you want to have on your node, which is minimum 3000 xTRAC to secure the network + additional xTRAC to be able to accept jobs. Currently around 5-6k total xTRAC is recommended. Also send 0.1 xDAI for gas fees during installation and litigation responses. For your management wallet, best approach is to use a hardware wallet like [Ledger Nano S](https://shop.ledger.com/pages/ledger-nano-x?r=c912d8040032) or [Trezor](https://shop.trezor.io/?offer\_id=10\&aff\_id=7122).
+Create a new wallet using Mycrypto or Metamask and export the private key, which we will use for the operational wallet for the node. Deposit the amount of xTRAC you want to have on your node, which is minimum 3000 xTRAC to secure the network + additional xTRAC to be able to accept jobs. Currently around 3200 total xTRAC is recommended per node. Also send 0.1 xDAI for gas fees during installation and litigation responses. For your management wallet, best approach is to use a hardware wallet like [Ledger Nano S](https://shop.ledger.com/pages/ledger-nano-x?r=c912d8040032) or [Trezor](https://shop.trezor.io/?offer\_id=10\&aff\_id=7122).
 
 ## III. **Configure the server**
 
